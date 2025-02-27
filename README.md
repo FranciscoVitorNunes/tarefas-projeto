@@ -1,44 +1,28 @@
-📌 Nome do Projeto
-md
-Copiar
-Editar
+
 # Gerenciador de Tarefas
-Um sistema simples de gerenciamento de tarefas feito com Node.js.
+Um sistema simples de gerenciamento de tarefas feito com Node js.
+
 🛠 Tecnologias Usadas
-md
-Copiar
-Editar
 - Node.js
 - Express.js
-- MongoDB (ou outro banco, se estiver usando)
+- Ejs
+- Body Parser
 - HTML, CSS e JavaScript
+
 🚀 Como Rodar o Projeto
-md
-Copiar
-Editar
+
 1. Clone este repositório:
-git clone https://github.com/seu-usuario/nome-do-repo.git
+git clone https://github.com/FranciscoVitorNunes/tarefas-projeto.git
 
-arduino
-Copiar
-Editar
 2. Acesse a pasta do projeto:
-cd nome-do-repo
+cd tarefas-projeto 
 
-csharp
-Copiar
-Editar
 3. Instale as dependências:
-npm install
+npm install express Ejs body-parser
 
-markdown
-Copiar
-Editar
+
 4. Inicie o servidor:
-node server.js
+node Index.js
 
-less
-Copiar
-Editar
 
-O servidor será iniciado em `http://localhost:3000`.
+O servidor será iniciado em `http://localhost:5000`.
