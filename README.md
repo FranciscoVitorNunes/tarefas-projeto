@@ -1,10 +1,8 @@
 
 # Gerenciador de Tarefas
-Um sistema simples de gerenciamento de tarefas feito com Node.js.
+Um sistema simples de gerenciamento de tarefas feito com Node js.
+
 🛠 Tecnologias Usadas
-md
-Copiar
-Editar
 - Node.js
 - Express.js
 - Ejs
