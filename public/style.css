@@ -6,8 +6,6 @@ body {
     height: 100vh;
     margin: 0;
 }
-
-
 input[type="text"] {
     flex: 1;
     padding: 10px;
