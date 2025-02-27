@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Node js</title>
+        <link rel="stylesheet" href="/public/style.css">
+    </head>
+    <body>
+        <div class="tarefas">
+            <H1>Lista de Tarefas</H1>
+            <form method="post">
+                <input type="text" name="tarefa" >
+                <input type="submit" name="acao" value="+">
+            </form>
+            <%
+            for (let i=0;i < ListTarefas.length; i++){ %>
+                <p>
+                    <%= ListTarefas[i] %>
+                    <a href="/deletar/<%= i%>">x</a>
+                </p>
+            <%
+            }
+            %>
+        </div>
+    </body>
+</html>
